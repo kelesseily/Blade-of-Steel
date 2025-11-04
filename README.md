@@ -47,7 +47,7 @@ This mechanic lays the groundwork for a more advanced combat system.
 ---
 
 ### **4. Interactive Environment**
-- The world includes **interactive torches** and other environmental props.  
+- The world includes **interactive torches**.  
 - **Torch Interaction:**  
   - When near a torch, an interaction prompt appears.  
   - Press `X` to toggle it on or off.  
@@ -75,25 +75,23 @@ The prototype provides a solid technical and gameplay foundation. The following 
 - Improve synchronization between walking animation and player speed to remove the “ice skating” effect.  
 - Add proper **turn-in-place** animations for smoother idle transitions.
 
-### **2. Advanced Weapon System**
-- Expand weapon interactions to include:
-  - **Light and heavy attack animations**  
-  - **Damage detection and hit registration**  
-  - **Unique weapon stats** (range, weight, stamina cost, and durability)  
+### **2. Improve Weapon System**
+- Improve weapon holding, handling and animation upon movement and hitting.
 
 ### **3. Additional Features**
 - Basic combat AI for enemy dummies or NPC opponents.  
 - HUD elements showing stamina, equipped weapon, and interaction prompts.  
-- Environmental audio effects (e.g., wind, footsteps, battle ambience).
+- Environmental audio effects.
 
 ---
 
 ## 🧰 Technical Details
 
 - **Engine:** Unity (URP Template)  
+- **Editor:** Unity 6.0 (6.000.0.60f1) LTS  
 - **Language:** C#  
 - **Platform:** PC (Windows)  
-- **Scene Name:** `PrototypeScene.unity`  
+- **Scene Name:** `SampleScene.unity`  
 
 ---
 
@@ -101,5 +99,5 @@ The prototype provides a solid technical and gameplay foundation. The following 
 
 1. Clone or download this repository.  
 2. Open the project in **Unity (URP Template)** – version 2021 LTS or newer recommended.  
-3. In the Project window, open the scene located at:  
+3. In the Project window, open the scene located at: Assets/Scenes/ 
 
